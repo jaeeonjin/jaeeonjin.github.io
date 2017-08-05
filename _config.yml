@@ -1,5 +1,5 @@
 
-title: My Resume
+title: Jaeeon Jin
 url: 'http://webjeda.com'
 baseurl: '/' #change it according to your repository name
 
@@ -13,19 +13,16 @@ baseurl: '/' #change it according to your repository name
 
 
 #Profile information
-name: Alan Doe
-tagline: Full Stack Developer
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+name: Jaeeon Jin
+tagline: Back-end Developer
+pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
-email: hello@webjeda.com
-phone: 012 345 6789
-website: blog.webjeda.com #do not add http://
-linkedin: alandoe
-github: sharu725
-twitter: '@webjeda'
-
+email: momentjin@gmail.com
+phone: +82 10 3229 0420
+github: github.com/jaeeonjin
 
 # Tracker
 analytics: UA-83979019-1
+
 #Update all the sections by editing the files inside _includes folder.
