@@ -3,7 +3,7 @@
                  
      <div class="sidebar-wrapper">
             <div class="profile-container">
-                <img class="profile-img" src="{{site.baseurl}}/assets/images/{% if site.pic %}{{ site.pic }}{% else %}profile.png{% endif %}" alt="profile picture" />
+                <img class="profile-img" src="{{site.baseurl}}/assets/images/{% if site.pic %}{{ site.pic }}{% else %}profile.jpg{% endif %}" alt="profile picture" />
                 <h1 class="name">{% if site.name %}{{site.name}}{% else %}Alan Doe{% endif %}</h1>
                 <h3 class="tagline">{% if site.tagline %}{{site.tagline}}{% else %}Full Stack Developer{% endif %}</h3>
             </div><!--//profile-container-->
@@ -23,17 +23,17 @@
                     <li class="phone"><i class="fa fa-phone"></i><a href="tel:012 345 6789">012 345 6789</a></li>
                     {% endif %}
                     
-                    {% if site.website %}
+                 <!--   {% if site.website %}
                     <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
                     {% else %}
                     <li class="website"><i class="fa fa-globe"></i><a href="http://blog.webjeda.com" target="_blank">blog.webjeda.com</a></li>
-                    {% endif %}
+                    {% endif %}-->
                     
-                    {% if site.linkedin %}
+           <!--         {% if site.linkedin %}
                     <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank">linkedin.com/in/{{site.linkedin}}</a></li>
                     {% else %}
                     <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/sharath-kumar-87669956" target="_blank">linkedin.com/in/sharathdt</a></li>
-                    {% endif %}
+                    {% endif %}-->
                     
                     {% if site.github %}
                     <li class="github"><i class="fa fa-github"></i><a href="http://github.com/{{site.github}}" target="_blank">github.com/{{site.github}}</a></li>
@@ -41,18 +41,18 @@
                     <li class="github"><i class="fa fa-github"></i><a href="http://github.com/sharu725" target="_blank">github.com/sharu725</a></li>
                     {% endif %}
                     
-                    {% if site.twitter %}
+          <!--          {% if site.twitter %}
                     <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
                     {% else %}
                      <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/@webjeda" target="_blank">@webjeda</a></li>
-                    {% endif %}
+                    {% endif %}-->
                     
                 </ul>
             </div><!--//contact-container-->
            {% include education.html %}
-           {% include language.html %}
-           {% include interests.html %}
-           {% include about.html %}
+           <!--{% include language.html %}-->
+           <!--{% include interests.html %}-->
+           <!--{% include about.html %}-->
         
             
         </div><!--//sidebar-wrapper-->
